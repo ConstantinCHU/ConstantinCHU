@@ -1,16 +1,21 @@
 ## Hi there 👋
 
-<!--
-**ConstantinCHU/ConstantinCHU** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
 
-Here are some ideas to get you started:
+class Explorer:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def __init__(self):
+        self.name = "Constantin CHU"
+        self.organization = "LogiControl"
+        self.role = "Explorer"
+        self.city = "shanghai_CN"
+        self.language_spoken = ["zh_CN", "en_US"]
+        self.interests = ["Investment", "Quant", "AI", "Robot"]
+
+    def say_hi(self):
+        print("Hi Stranger.")
+
+
+me = Explorer()
+me.say_hi()
