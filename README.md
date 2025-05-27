@@ -16,6 +16,5 @@ class Explorer:
     def say_hi(self):
         print("Hi Stranger.")
 
-
 me = Explorer()
 me.say_hi()
