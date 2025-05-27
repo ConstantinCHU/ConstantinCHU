@@ -2,7 +2,7 @@
 #!/usr/bin/python  
 #-*- coding: utf-8 -*-  
 
-<font color="#FF0000">class</font> Explorer:   
+class <font color="#FF0000">Explorer</font>:   
 
     def __init__(self):
         self.name = "Constantin CHU"
