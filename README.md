@@ -1,9 +1,8 @@
-# Hi there 👋
-
+# Hi there 👋  
 #!/usr/bin/python  
 #-*- coding: utf-8 -*-  
 
-<span style="color: blue">class</span> Explorer:   
+<font color="#FF0000">class</font> Explorer:   
 
     def __init__(self):
         self.name = "Constantin CHU"
